@@ -40,6 +40,15 @@ npx hardhat verify "<CONTRACT ADDRESS>" --network rinkeby
 npm run lint
 npm run lint:fix
 ```
+## Syntax Highlighting
+If you use VSCode, you can enjoy syntax highlighting for your Solidity code via the vscode-solidity extension. The recommended approach to set the compiler version is to add the following fields to your VSCode user settings:
+```JSON
+{
+  "solidity.compileUsingRemoteVersion": "v0.8.4+commit.c7e474f2",
+  "solidity.defaultCompiler": "remote"
+}
+```
+Where of course v0.8.4+commit.c7e474f2 can be replaced with any other version.
 
 # Tools and Resources
 - [MyCrypto](https://app.mycrypto.com/): tool for some common operations (contract interaction, [faucets](https://app.mycrypto.com/faucet))
