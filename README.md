@@ -6,48 +6,39 @@ Solidity Smart Contracts Development with Solidity and TypeScript using [Hardhat
 ```shell
 # clone the repository
 git clone https://github.com/olich97/solidity-hardhat-template.git
+
 # installing dependencies
 npm install
 # or updating dependencies to the latest version
 npm update
-```
-### Compile contracts:
-```shell
+
+# clean artifacts
+npm run clean
+
+# compile contracts
 npm run compile
-```
-### Run tests:
-> Note: sometime you need to run the command twice (if receive imports error) because for some reason VS not refreshing dependencies at first time
-```shell
+
+# run tests
 npm run test
+
 # test coverage
 npm run coverage
-```
-### Deploy contracts locally
-1. Start local blockchain:
-```shell
-npm run chain
-```
 
-2. Deploy contracts:
-```shell
+# start local chain
+npm run chain
+
+# deploy contracts on local chain
 npm run deploy:local
-```
-### Deploy contracts to rinkeby
-1. Make sure to properly configure `.env` file
-2. Deploy contracts and verify:
-```shell
+
+# deploy contracts on live chain
 npm run deploy:rinkeby
-# verify target contract
+
+# verify a contract
 npx hardhat verify "<CONTRACT ADDRESS>" --network rinkeby
-```
-### Linting
-```shell
+
+# linting
 npm run lint
 npm run lint:fix
-```
-### Clean artifacts
-```shell
-npm run clean
 ```
 
 # Tools and Resources
