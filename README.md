@@ -47,8 +47,11 @@ If you use VSCode, you can enjoy syntax highlighting for your Solidity code via 
   "solidity.compileUsingRemoteVersion": "v0.8.4+commit.c7e474f2",
   "solidity.defaultCompiler": "remote"
 }
+
 ```
 Where of course v0.8.4+commit.c7e474f2 can be replaced with any other version.
+
+If you receiving errors on imports, a useful tip could be [this answer](https://ethereum.stackexchange.com/a/111572)
 
 # Tools and Resources
 - [MyCrypto](https://app.mycrypto.com/): tool for some common operations (contract interaction, [faucets](https://app.mycrypto.com/faucet))
