@@ -1,6 +1,6 @@
 # Solidity and TypeScript with Hardhat
 
-Solidity Smart Contracts Development with Solidity and TypeScript using Hardhat
+Solidity Smart Contracts Development with Solidity and TypeScript using [Hardhat](https://hardhat.org/)
 
 # Getting Started
 ```shell
