@@ -67,3 +67,4 @@ If you receiving errors on imports, a useful tip could be [this answer](https://
 - [The Gas-Efficient Way of Building and Launching an ERC721 NFT Project For 2022](https://nftchance.medium.com/the-gas-efficient-way-of-building-and-launching-an-erc721-nft-project-for-2022-b3b1dac5f2e1)
 - [Import & Test a Popular NFT Smart Contract with Hardhat & Ethers](https://dev.to/jacobedawson/import-test-a-popular-nft-smart-contract-with-hardhat-ethers-12i5)
 - [Upgradeable proxy contract from scratch](https://medium.com/coinmonks/upgradeable-proxy-contract-from-scratch-3e5f7ad0b741)
+- [Learning Solidity: A Starting Guide](https://blog.cryptostars.is/learning-solidity-a-starting-guide-fd9babac9806)
