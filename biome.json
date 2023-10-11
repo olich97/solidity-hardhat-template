@@ -10,6 +10,12 @@
 		}
 	},
 	"files": {
-		"ignore": ["./typechain-types"]
+		"ignore": [
+			"./typechain-types",
+			"./node_modules",
+			"./artifacts",
+			"./coverage",
+			"./cache"
+		]
 	}
 }
