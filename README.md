@@ -35,9 +35,9 @@ yarn run compile
 - Deploy smart contract:
 ```shell
 # local chain
-npm run deploy:local
+yarn run deploy:local
 # sepolia
-npm run deploy:sepolia
+yarn run deploy:sepolia
 ```
 - Verify smart contract:
 ```shell
