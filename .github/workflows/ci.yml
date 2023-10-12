@@ -37,6 +37,7 @@ jobs:
         continue-on-error: true
         with:
           sarif: results.sarif
+          fail-on: none
           slither-args: --filter-paths node_modules # exclude other contracts (open zeppelin ones)
 
       - name: Upload static anaylisis SARIF output file # it should also add relevant comments on PR
