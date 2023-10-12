@@ -27,16 +27,15 @@ jobs:
     permissions:
       # required for uploading slither sarif results
       security-events: write
-      contents: read
     steps:
       - uses: actions/checkout@v2
 
       - name: Run static analysis with slither
         uses: crytic/slither-action@v0.3.0
         id: slither
+        continue-on-error: true
         with:
           sarif: results.sarif
-          fail-on: none
           slither-args: --filter-paths node_modules # exclude other contracts (open zeppelin ones)
 
       - name: Upload static anaylisis SARIF output file # it should also add relevant comments on PR
