@@ -34,7 +34,6 @@ jobs:
       - name: Run static analysis with slither
         uses: crytic/slither-action@v0.3.0
         id: slither
-        continue-on-error: true
         with:
           sarif: results.sarif
           fail-on: none
