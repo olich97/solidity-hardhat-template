@@ -27,6 +27,7 @@ jobs:
     permissions:
       # required for uploading slither sarif results
       security-events: write
+      contents: read
     steps:
       - uses: actions/checkout@v2
 
