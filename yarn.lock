@@ -1674,9 +1674,11 @@ __metadata:
   linkType: hard
 
 "antlr4ts@npm:^0.5.0-alpha.4":
-  version: 0.5.0-alpha.4
-  resolution: "antlr4ts@npm:0.5.0-alpha.4"
-  checksum: 37948499d59477f5b5a8ea71dfb8b5330e71d5a7cee60f57351dd744219b8619fa6aac1a5b6ec1a9991846e8ddc9ca47680eb166c59b44333369b3115e7aa358
+  version: 0.5.0-dev
+  resolution: "antlr4ts@npm:0.5.0-dev"
+  dependencies:
+    source-map-support: ^0.5.16
+  checksum: 640dae2229124372b0329315e9614ae983bb80b1af237d8c0b3e90a2d85fb534e851c51d65d1897c92b36d27851d041ad8d95aab44af19cf7355b3ad11a3ddbf
   languageName: node
   linkType: hard
 
@@ -3425,8 +3427,8 @@ __metadata:
   linkType: hard
 
 "hardhat@npm:^2.18.0":
-  version: 2.18.0
-  resolution: "hardhat@npm:2.18.0"
+  version: 2.18.1
+  resolution: "hardhat@npm:2.18.1"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@metamask/eth-sig-util": ^4.0.0
@@ -3486,7 +3488,7 @@ __metadata:
       optional: true
   bin:
     hardhat: internal/cli/bootstrap.js
-  checksum: 928c6af3f963dd54e36f58e52c9b7731d9f3886d6f69b4d3fca08244573f0b4769efeb98ac09204b27a05525a88ea1275eb0e3c17d486f9c14f3a3b2c716528d
+  checksum: 34a6b4f27e4412e8878c8612a36c92ae79acea5168514bddb7eb4654be5ea92e19f4b2618e8e789361c8f54eaf10ebe6469042c22bbaae66254e5e3a5a63c3b1
   languageName: node
   linkType: hard
 
@@ -5606,7 +5608,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"source-map-support@npm:^0.5.13":
+"source-map-support@npm:^0.5.13, source-map-support@npm:^0.5.16":
   version: 0.5.21
   resolution: "source-map-support@npm:0.5.21"
   dependencies:
@@ -6123,11 +6125,11 @@ __metadata:
   linkType: hard
 
 "undici@npm:^5.14.0":
-  version: 5.26.0
-  resolution: "undici@npm:5.26.0"
+  version: 5.26.3
+  resolution: "undici@npm:5.26.3"
   dependencies:
     "@fastify/busboy": ^2.0.0
-  checksum: e2c5771e3a5c349fb27d1e73fad16d3eebba1799c73c4f5c1e12748b8456f790db81b9b32d104d92e09f17a867c25d1652b5fd128c917a2ef23ba3e86389d45b
+  checksum: aaa9aadb712cf80e1a9cea2377e4842670105e00abbc184a21770ea5a8b77e4e2eadc200eac62442e74a1cd3b16a840c6f73b112b9e886bd3c1a125eb22e4f21
   languageName: node
   linkType: hard
 
