@@ -1,14 +1,17 @@
 # Solidity and TypeScript with Hardhat
 
 A template for solidity smart contract development with hardhat.
+
 Built ❤️ with:
-- [Hardhat](https://hardhat.org/)
-- [Biome](https://biomejs.dev/)
-- [Solhint](https://github.com/protofire/solhint)
-- [Husky](https://typicode.github.io/husky/getting-started.html)
-- [Slither](https://github.com/crytic/slither)
+- [Hardhat](https://hardhat.org/): compile, run and test smart contracts
+- [Biome](https://biomejs.dev/): format, lint, and more for JavaScript
+- [Solhint](https://github.com/protofire/solhint): format, lint, etc for JavaScript
+- [Husky](https://typicode.github.io/husky/getting-started.html): git hooks
+- [Slither](https://github.com/crytic/slither): solidity static code analyzer (vulnerabilities detection, code comprehension etc)
 
 # Getting started
+Click the [`Use this template`](https://github.com/olich97/solidity-hardhat-template/generate) button at the top of the page to
+create a new repository with this repo as the initial state.
 - Install dependencies:
 ```shell
 yarn
