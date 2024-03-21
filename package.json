@@ -34,13 +34,13 @@
     "@types/mocha": ">=10.0.6",
     "@types/node": ">=20.11.30",
     "chai": "^4.2.0",
-    "hardhat": "^2.19.3",
     "ethers": "^6.11.1",
+    "hardhat": "^2.22.1",
     "hardhat-gas-reporter": "^1.0.8",
     "husky": "^8.0.0",
     "pinst": "^3.0.0",
     "solidity-coverage": "^0.8.0",
-    "ts-node": ">=8.0.0",
+    "ts-node": ">=10.9.2",
     "typechain": "^8.3.2",
     "typescript": ">=5.3.3"
   }

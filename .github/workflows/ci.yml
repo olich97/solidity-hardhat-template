@@ -31,7 +31,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run static analysis with slither
-        uses: crytic/slither-action@v0.3.0
+        uses: crytic/slither-action@v0.3.1
         id: slither
         continue-on-error: true
         with:
@@ -39,6 +39,6 @@ jobs:
           slither-args: --filter-paths node_modules # exclude other contracts (open zeppelin ones)
 
       - name: Upload static anaylisis SARIF output file # it should also add relevant comments on PR
-        uses: github/codeql-action/upload-sarif@v2
+        uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: ${{ steps.slither.outputs.sarif }}
