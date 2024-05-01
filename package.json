@@ -36,7 +36,7 @@
     "chai": "^4.4.1",
     "ethers": "^6.11.1",
     "hardhat-gas-reporter": "^1.0.10",
-    "hardhat": "^2.22.2",
+    "hardhat": "^2.22.3",
     "husky": "^9.0.11",
     "pinst": "^3.0.0",
     "solidity-coverage": "^0.8.12",
