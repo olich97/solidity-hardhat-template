@@ -21,7 +21,7 @@
     "postpack": "pinst --enable"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.4.1",
+    "@biomejs/biome": "1.7.3",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
     "@nomicfoundation/hardhat-ethers": "^3.0.5",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
