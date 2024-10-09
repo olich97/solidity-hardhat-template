@@ -37,7 +37,7 @@
     "ethers": "^6.13.2",
     "hardhat-gas-reporter": "^1.0.10",
     "hardhat": "^2.22.12",
-    "husky": "^9.0.11",
+    "husky": "^9.1.6",
     "pinst": "^3.0.0",
     "solidity-coverage": "^0.8.12",
     "ts-node": ">=10.9.2",
